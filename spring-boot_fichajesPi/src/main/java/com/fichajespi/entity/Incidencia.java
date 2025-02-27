@@ -26,34 +26,34 @@ import lombok.NoArgsConstructor;
 @Table(name = "incidencias")
 public class Incidencia {
 
-	@Id
-	@GeneratedValue
-	private Long id;
+    @Id
+    @GeneratedValue
+    private Long id;
 
-	@JsonIgnore
-	@NotNull
-	private String descripcion;
+    @JsonIgnore
+    @NotNull
+    private String descripcion;
 
-	@NotNull
-	private String resumen;
+    @NotNull
+    private String resumen;
 
 //	@NotNull
 //	@Temporal(TemporalType.DATE)
 //	private Date dia;
-	@NotNull
-	@JsonFormat(pattern = "yyyy-MM-dd")
-	private LocalDate dia;
+    @NotNull
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate dia;
 
-	@Column(columnDefinition = "boolean default false")
-	private Boolean resuelta;
+    @Column(columnDefinition = "boolean default false")
+    private Boolean resuelta;
 
-	private String explicacion;
+    private String explicacion;
 
-	@JsonIgnoreProperties(value = { "password", "dni", "diasVacaciones", "horasGeneradas",
-			"working", "enVacaciones", "deBaja",
-			"admin", "roles", "fichajes", "incidencias", "permisos", "vacaciones" })
-	@ManyToOne
-	@JoinColumn(name = "usuario_id")
-	private Usuario usuario;
+    @JsonIgnoreProperties(value = {"password", "dni", "diasVacaciones", "horasGeneradas",
+        "working", "enVacaciones", "deBaja",
+        "admin", "roles", "fichajes", "incidencias", "permisos", "vacaciones"})
+    @ManyToOne
+    @JoinColumn(name = "usuario_id")
+    private Usuario usuario;
 
 }

@@ -33,4 +33,5 @@ public class UsuarioDto {
 
 	private Boolean working;
 
+    private List<Long> centrosDeTrabajoIds;
 }

@@ -10,8 +10,8 @@ import javax.persistence.Table;
 import com.fichajespi.security.enums.RolNombre;
 import com.sun.istack.NotNull;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @Data

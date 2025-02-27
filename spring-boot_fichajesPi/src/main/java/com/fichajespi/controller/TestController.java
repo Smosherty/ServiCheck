@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fichajespi.schedule.ScheduledTasks;
 
-import springfox.documentation.annotations.ApiIgnore;
+// import springfox.documentation.annotations.ApiIgnore;
 
 @RestController
 @RequestMapping("/test")

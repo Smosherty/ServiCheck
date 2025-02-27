@@ -107,7 +107,6 @@ public class Usuario {
     // @ManyToOne
     // @JoinColumn(name = "calendario_id")
     // private Calendario calendario;
- 
     
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(

@@ -16,8 +16,8 @@ import com.sun.istack.NotNull;
 
 import org.springframework.data.annotation.Transient;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @Data
@@ -51,10 +51,10 @@ public class Grupo {
         return CentrosDeTrabajo != null ? CentrosDeTrabajo.size() : 0;
     }
 
-    // @Transient
-    // public int getTotalEmpleados() {
-    //     return CentrosDeTrabajo != null
-    //             ? CentrosDeTrabajo.stream().mapToInt(local -> local.getUsuarios().size()).sum()
-    //             : 0;
-    // }
+    @Transient
+    public int getTotalEmpleados() {
+        return CentrosDeTrabajo != null
+                ? CentrosDeTrabajo.stream().mapToInt(local -> local.getUsuarios().size()).sum()
+                : 0;
+    }
 }

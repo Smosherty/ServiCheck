@@ -1,0 +1,1492 @@
+Apache Maven 3.8.1 (05c21c65bdfed0f71a2f2ada8b84da59348c4c5d)
+Maven home: C:\Users\Daniel\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1
+Java version: 23.0.2, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-23
+Default locale: es_ES, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Users\Daniel\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Daniel\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Users\Daniel\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\Daniel\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\Daniel\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Daniel\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.fichajespi:fichajesPi.backend:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:2.5.1: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:2.5.1: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix spring-boot from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix spring-boot to org.springframework.boot:spring-boot-maven-plugin from POM com.fichajespi:fichajesPi.backend:jar:0.0.1-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.fichajespi:fichajesPi.backend:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [spring-boot:run]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------< com.fichajespi:fichajesPi.backend >------------------
+[INFO] Building fichajesPi.backend 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Resolving plugin prefix spring-boot from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix spring-boot to org.springframework.boot:spring-boot-maven-plugin from POM com.fichajespi:fichajesPi.backend:jar:0.0.1-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.fichajespi:fichajesPi.backend:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] --- init fork of com.fichajespi:fichajesPi.backend:0.0.1-SNAPSHOT for org.springframework.boot:spring-boot-maven-plugin:2.5.1:run (default-cli) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.2.0:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] --- exit fork of com.fichajespi:fichajesPi.backend:0.0.1-SNAPSHOT for org.springframework.boot:spring-boot-maven-plugin:2.5.1:run (default-cli) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.springframework.boot:spring-boot-maven-plugin:2.5.1:run (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addResources default-value="false">${spring-boot.run.addResources}</addResources>
+  <agents>${spring-boot.run.agents}</agents>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <commandlineArguments>${spring-boot.run.arguments}</commandlineArguments>
+  <directories>${spring-boot.run.directories}</directories>
+  <excludeGroupIds default-value="">${spring-boot.excludeGroupIds}</excludeGroupIds>
+  <excludes>
+    <exclude>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </exclude>${spring-boot.excludes}</excludes>
+  <fork default-value="true">${spring-boot.run.fork}</fork>
+  <includes>${spring-boot.includes}</includes>
+  <jvmArguments>${spring-boot.run.jvmArguments}</jvmArguments>
+  <mainClass>${start-class}</mainClass>
+  <noverify>${spring-boot.run.noverify}</noverify>
+  <optimizedLaunch default-value="true">${spring-boot.run.optimizedLaunch}</optimizedLaunch>
+  <profiles>${spring-boot.run.profiles}</profiles>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${spring-boot.run.skip}</skip>
+  <useTestClasspath default-value="false">${spring-boot.run.useTestClasspath}</useTestClasspath>
+  <workingDirectory>${spring-boot.run.workingDirectory}</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.5.1:run (default-cli) > test-compile @ fichajesPi.backend >>>
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1717800, ConflictMarker.markTime=424300, ConflictMarker.nodeCount=320, ConflictIdSorter.graphTime=1096700, ConflictIdSorter.topsortTime=835800, ConflictIdSorter.conflictIdCount=115, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=12978800, ConflictResolver.conflictItemCount=251, DefaultDependencyCollector.collectTime=302490300, DefaultDependencyCollector.transformTime=19590900}
+[DEBUG] com.fichajespi:fichajesPi.backend:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.5.1:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-aop:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.6:compile (version managed from 1.9.6)
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          com.zaxxer:HikariCP:jar:4.0.3:compile (version managed from 4.0.3)
+[DEBUG]          org.springframework:spring-jdbc:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]       jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile (version managed from 1.3.3)
+[DEBUG]       jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile (version managed from 2.2.3)
+[DEBUG]       org.hibernate:hibernate-core:jar:5.4.32.Final:compile (version managed from 5.4.32.Final)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.4.2.Final:compile (version managed from 3.4.1.Final)
+[DEBUG]          org.javassist:javassist:jar:3.27.0-GA:compile
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.22:compile (version managed from 1.10.22)
+[DEBUG]          antlr:antlr:jar:2.7.7:compile (version managed from 2.7.7)
+[DEBUG]          org.jboss:jandex:jar:2.2.3.Final:compile
+[DEBUG]          org.dom4j:dom4j:jar:2.1.3:compile
+[DEBUG]          org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile
+[DEBUG]          org.glassfish.jaxb:jaxb-runtime:jar:2.3.4:compile (version managed from 2.3.1)
+[DEBUG]             org.glassfish.jaxb:txw2:jar:2.3.4:compile (version managed from 2.3.4)
+[DEBUG]             com.sun.istack:istack-commons-runtime:jar:3.0.12:compile
+[DEBUG]       org.springframework.data:spring-data-jpa:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          org.springframework.data:spring-data-commons:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          org.springframework:spring-orm:jar:5.3.8:compile (version managed from 5.3.7)
+[DEBUG]          org.springframework:spring-context:jar:5.3.8:compile (version managed from 5.3.7)
+[DEBUG]          org.springframework:spring-tx:jar:5.3.8:compile (version managed from 5.3.7)
+[DEBUG]          org.springframework:spring-beans:jar:5.3.8:compile (version managed from 5.3.7)
+[DEBUG]       org.springframework:spring-aspects:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:2.5.1:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          org.springframework.boot:spring-boot:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.14.1:compile (version managed from 2.14.1)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.14.1:compile (version managed from 2.14.1)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.30:compile (version managed from 1.7.30)
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile (version managed from 1.3.5)
+[DEBUG]          org.yaml:snakeyaml:jar:1.28:compile (version managed from 1.28)
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.12.3:compile (version managed from 2.12.3)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.12.3:compile (version managed from 2.12.3)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.12.3:compile (version managed from 2.12.3)
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.46:compile (version managed from 9.0.46)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.46:compile (version managed from 9.0.46)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.46:compile (version managed from 9.0.46)
+[DEBUG]       org.springframework:spring-web:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]       org.springframework:spring-webmvc:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]          org.springframework:spring-expression:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]    javax.validation:validation-api:jar:2.0.1.Final:compile
+[DEBUG]    mysql:mysql-connector-java:jar:8.0.25:runtime (exclusions managed from [com.google.protobuf:protobuf-java:*:*])
+[DEBUG]    org.projectlombok:lombok:jar:1.18.20:compile (optional)
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.5.1:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.5.1:test (version managed from 2.5.1)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.5.1:test (version managed from 2.5.1)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.5.0:test (version managed from 2.5.0)
+[DEBUG]          net.minidev:json-smart:jar:2.4.7:test (version managed from 2.3)
+[DEBUG]             net.minidev:accessors-smart:jar:2.4.7:test
+[DEBUG]                org.ow2.asm:asm:jar:9.1:test
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile (version managed from 2.3.3)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:compile (version managed from 1.2.2)
+[DEBUG]       org.assertj:assertj-core:jar:3.19.0:test (version managed from 3.19.0)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.7.2:test (version managed from 5.7.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.7.2:test (version managed from 5.7.2)
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]             org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.7.2:test (version managed from 1.7.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.7.2:test (version managed from 5.7.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.7.2:test (version managed from 5.7.2)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.7.2:test (version managed from 1.7.2)
+[DEBUG]       org.mockito:mockito-core:jar:3.9.0:test (version managed from 3.9.0)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.22:test (version managed from 1.10.20)
+[DEBUG]          org.objenesis:objenesis:jar:3.2:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:3.9.0:test (version managed from 3.9.0)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]          org.springframework:spring-jcl:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]       org.springframework:spring-test:jar:5.3.8:test (version managed from 5.3.8)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.8.2:test (version managed from 2.8.2)
+[DEBUG]    org.modelmapper:modelmapper:jar:2.3.5:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-mail:jar:2.5.1:compile
+[DEBUG]       org.springframework:spring-context-support:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]       com.sun.mail:jakarta.mail:jar:1.6.7:compile (version managed from 1.6.7)
+[DEBUG]          com.sun.activation:jakarta.activation:jar:1.2.2:compile (version managed from 1.2.1)
+[DEBUG]    org.springframework.boot:spring-boot-starter-security:jar:2.5.1:compile
+[DEBUG]       org.springframework:spring-aop:jar:5.3.8:compile (version managed from 5.3.8)
+[DEBUG]       org.springframework.security:spring-security-config:jar:5.5.0:compile (version managed from 5.5.0)
+[DEBUG]       org.springframework.security:spring-security-web:jar:5.5.0:compile (version managed from 5.5.0)
+[DEBUG]    org.springframework.security:spring-security-test:jar:5.5.0:test
+[DEBUG]       org.springframework.security:spring-security-core:jar:5.5.0:compile (version managed from 5.5.0)
+[DEBUG]          org.springframework.security:spring-security-crypto:jar:5.5.0:compile (version managed from 5.5.0)
+[DEBUG]    io.jsonwebtoken:jjwt:jar:0.9.1:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.12.3:compile (version managed from 2.9.6)
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.12.3:compile (version managed from 2.12.3)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.12.3:compile (version managed from 2.12.3)
+[DEBUG]    com.nimbusds:nimbus-jose-jwt:jar:9.10:compile
+[DEBUG]       com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[DEBUG]    io.springfox:springfox-swagger2:jar:2.9.2:compile
+[DEBUG]       io.swagger:swagger-annotations:jar:1.5.20:compile
+[DEBUG]       io.swagger:swagger-models:jar:1.5.20:compile
+[DEBUG]       io.springfox:springfox-spi:jar:2.9.2:compile
+[DEBUG]          io.springfox:springfox-core:jar:2.9.2:compile
+[DEBUG]       io.springfox:springfox-schema:jar:2.9.2:compile
+[DEBUG]       io.springfox:springfox-swagger-common:jar:2.9.2:compile
+[DEBUG]       io.springfox:springfox-spring-web:jar:2.9.2:compile
+[DEBUG]       com.google.guava:guava:jar:20.0:compile
+[DEBUG]       com.fasterxml:classmate:jar:1.5.1:compile (version managed from 1.4.0)
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from 1.7.25)
+[DEBUG]       org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[DEBUG]       org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[DEBUG]       org.mapstruct:mapstruct:jar:1.2.0.Final:compile
+[DEBUG]    io.springfox:springfox-swagger-ui:jar:2.9.2:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ fichajesPi.backend ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for repository.jboss.org (http://repository.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots.jboss.org (http://snapshots.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for oss.sonatype.org/jboss-snapshots (http://oss.sonatype.org/content/repositories/jboss-snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=211400, ConflictMarker.markTime=75400, ConflictMarker.nodeCount=99, ConflictIdSorter.graphTime=118400, ConflictIdSorter.topsortTime=24300, ConflictIdSorter.conflictIdCount=35, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=556800, ConflictResolver.conflictItemCount=85, DefaultDependencyCollector.collectTime=114195100, DefaultDependencyCollector.transformTime=1035300}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.1.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.1.0:compile
+[DEBUG]          org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-component-annotations:jar:2.0.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile
+[DEBUG]       javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]          javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]          javax.inject:javax.inject:jar:1:compile
+[DEBUG]       com.google.guava:guava:jar:10.0.1:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[DEBUG]       org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a:compile
+[DEBUG]          asm:asm:jar:3.3.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.2.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.3.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.6:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.8.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.2.0
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: com.google.guava:guava:jar:10.0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:1.3.9
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.8.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0, parent: java.net.URLClassLoader@1cf4f579]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.fichajespi:fichajesPi.backend:0.0.1-SNAPSHOT @ C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\pom.xml
+[DEBUG]   (f) propertiesEncoding = UTF-8
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@74aa9c72
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used {spring-integration.version=5.5.0, env.USERPROFILE=C:\Users\Daniel, webjars-hal-browser.version=3325375, env.PKG_CONFIG_SYSTEM_LIBRARY_PATH=C:/Program Files/Git/mingw64/lib, env.PROGRAMW6432=C:\Program Files, env.OS=Windows_NT, javax-activation.version=1.2.0, kafka.version=2.7.1, env.GIT_ASKPASS=c:\Users\Daniel\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh, jboss-transaction-spi.version=7.6.1.Final, java.vm.specification.vendor=Oracle Corporation, env.MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, httpclient5.version=5.0.4, env.PUBLIC=C:\Users\Public, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, project.baseUri=file:/C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/, hibernate.version=5.4.32.Final, javax-persistence.version=2.2, jakarta-ws-rs.version=2.1.6, nekohtml.version=1.9.22, env.MINGW_CHOST=x86_64-w64-mingw32, native.encoding=Cp1252, selenium-htmlunit.version=2.49.1, ehcache3.version=3.9.4, commons-dbcp2.version=2.8.0, mongodb.version=4.2.3, java.vm.specification.version=23, user.home=C:\Users\Daniel, env.COLORTERM=truecolor, env.SESSIONNAME=Console, postgresql.version=42.2.20, jmustache.version=1.15, appengine-sdk.version=1.9.89, hamcrest.version=2.2, os.version=10.0, jakarta-transaction.version=1.3.3, jaxen.version=1.2.0, env.CONFIG_SITE=C:/Program Files/Git/etc/config.site, spring-batch.version=4.3.3, couchbase-client.version=3.1.6, javax-websocket.version=1.1, commons-codec.version=1.15, caffeine.version=2.9.1, env.PROGRAMFILES=C:\Program Files, pooled-jms.version=1.2.2, unboundid-ldapsdk.version=4.0.14, thymeleaf-extras-springsecurity.version=3.0.4.RELEASE, javax-jaxb.version=2.3.1, httpasyncclient.version=4.1.4, javax-jms.version=2.0.1, jakarta-websocket.version=1.1.2, env.PLINK_PROTOCOL=ssh, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, jakarta-xml-soap.version=1.4.2, env.PROCESSOR_LEVEL=6, env.TMP=C:\Users\Daniel\AppData\Local\Temp, httpcore5.version=5.1.1, lombok.version=1.18.20, env.TMPDIR=C:\Users\Daniel\AppData\Local\Temp, jackson-bom.version=2.12.3, maven-invoker-plugin.version=3.2.2, user.country=ES, env.USERDOMAIN=DESKTOP-IG4O8L7, resource.delimiter=@, jetty-jsp.version=2.2.0.v201112011158, maven-source-plugin.version=3.2.1, rxjava.version=1.3.8, java.runtime.name=Java(TM) SE Runtime Environment, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, maven-deploy-plugin.version=2.8.2, env.MAVEN_CMD_LINE_ARGS= spring-boot:run -X, maven-failsafe-plugin.version=2.22.2, dropwizard-metrics.version=4.1.22, kotlin-coroutines.version=1.5.0, env.TERM=xterm-256color, spring-restdocs.version=2.0.5.RELEASE, freemarker.version=2.3.31, jakarta-json.version=1.1.6, janino.version=3.1.4, java.version.date=2025-01-21, java.home=C:\Program Files\Java\jdk-23, env.LOCALAPPDATA=C:\Users\Daniel\AppData\Local, jolokia.version=1.6.2, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, jetty-reactive-httpclient.version=1.1.9, env.PATH=C;C:\Program Files\Git\Program Files\Java\jdk-23\bin;C:\Users\Daniel\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Daniel\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Daniel\AppData\Local\Microsoft\WindowsApps;C:\Users\Daniel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Daniel\AppData\Roaming\npm;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl, maven-dependency-plugin.version=3.1.2, httpclient.version=4.5.13, env.ORIGINAL_XDG_CURRENT_DESKTOP=undefined, gson.version=2.8.7, sun-mail.version=1.6.7, env.APPDATA=C:\Users\Daniel\AppData\Roaming, mssql-jdbc.version=9.2.1.jre8, snakeyaml.version=1.28, okhttp3.version=3.14.9, lettuce.version=6.1.2.RELEASE, stderr.encoding=cp850, kotlin.version=1.5.10, wsdl4j.version=1.6.3, tomcat.version=9.0.46, glassfish-jaxb.version=2.3.4, spring-ws.version=3.1.1, commons-lang3.version=3.12.0, os.name=Windows 11, junit.version=4.13.2, jetty-el.version=9.0.29, db2-jdbc.version=11.5.5.0, maven.build.timestamp=2025-02-28T10:19:09Z, env.MSYSTEM_CHOST=x86_64-w64-mingw32, javax-money.version=1.1, env.SHELL=C:\Program Files\Git\usr\bin\bash.exe, jakarta-validation.version=2.0.2, oracle-database.version=21.1.0.0, java.vm.info=mixed mode, sharing, cassandra-driver.version=4.11.1, env.TEMP=C:\Users\Daniel\AppData\Local\Temp, java.class.version=67.0, sun.jnu.encoding=Cp1252, xmlunit2.version=2.8.2, jakarta-mail.version=1.6.7, saaj-impl.version=1.5.3, maven.build.version=Apache Maven 3.8.1 (05c21c65bdfed0f71a2f2ada8b84da59348c4c5d), maven.home=C:\Users\Daniel\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1, netty-tcnative.version=2.0.39.Final, maven-shade-plugin.version=3.2.4, file.separator=\, line.separator=
+, spring-kafka.version=2.7.2, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 3, GenuineIntel, env.TERM_PROGRAM_VERSION=1.97.2, env.PROGRAMDATA=C:\ProgramData, hazelcast.version=4.1.3, jdom2.version=2.0.6, env.VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\, env.PROGRAMFILES(X86)=C:\Program Files (x86), hsqldb.version=2.5.2, ojdbc.version=19.3.0.0, env.HOMEDRIVE=C:, oauth2-oidc-sdk.version=9.3.3, env.TERM_PROGRAM=vscode, env.PWD=C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi, embedded-mongo.version=3.0.0, spring-ldap.version=2.3.4.RELEASE, java.class.path=C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/.mvn/wrapper/maven-wrapper.jar, env.HOME=C:\Users\Daniel, env.PROCESSOR_ARCHITECTURE=AMD64, servlet-api.version=4.0.1, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, rsocket.version=1.1.1, jakarta-persistence.version=2.2.3, groovy.version=3.0.8, javax-cache.version=1.1.1, logback.version=1.2.3, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, jedis.version=3.6.0, maven-clean-plugin.version=3.1.0, maven-surefire-plugin.version=2.22.2, env.PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, spring-data-bom.version=2021.0.1, jaybird.version=4.0.3.java8, selenium.version=3.141.59, glassfish-el.version=3.0.3, project.build.sourceEncoding=UTF-8, user.dir=C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi, ehcache.version=2.10.9.2, junit-jupiter.version=5.7.2, neo4j-java-driver.version=4.2.6, spring-session-bom.version=2021.0.0, env.NUMBER_OF_PROCESSORS=12, flyway.version=7.7.3, java.specification.version=23, java.vendor.url=https://java.oracle.com/, env.CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_5832_JZNDSMUSCFFJATID, sun.boot.library.path=C:\Program Files\Java\jdk-23\bin, sun.java.command=org.apache.maven.wrapper.MavenWrapperMain spring-boot:run -X, jdk.debug=release, maven.version=3.8.1, java.specification.name=Java Platform API Specification, env.USERDOMAIN_ROAMINGPROFILE=DESKTOP-IG4O8L7, byte-buddy.version=1.10.22, maven-install-plugin.version=2.5.2, java.runtime.version=23.0.2+7-58, env.COMPUTERNAME=DESKTOP-IG4O8L7, micrometer.version=1.7.0, rxjava-adapter.version=1.2.1, java.io.tmpdir=C:\Users\Daniel\AppData\Local\Temp\, java.version=23.0.2, build-helper-maven-plugin.version=3.2.0, mockito.version=3.9.0, java.vm.specification.name=Java Virtual Machine Specification, infinispan.version=12.1.4.Final, maven-assembly-plugin.version=3.3.0, java.library.path=C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C;C:\Program Files\Git\Program Files\Java\jdk-23\bin;C:\Users\Daniel\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Daniel\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Daniel\AppData\Local\Microsoft\WindowsApps;C:\Users\Daniel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Daniel\AppData\Roaming\npm;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;., java.vendor=Oracle Corporation, jakarta-servlet.version=4.0.4, thymeleaf-extras-java8time.version=3.0.4.RELEASE, undertow.version=2.2.8.Final, mariadb.version=2.7.3, thymeleaf-extras-data-attribute.version=2.0.1, jakarta-xml-bind.version=2.3.3, env.LANG=en_US.UTF-8, maven.compiler.source=11, javax-transaction.version=1.3, env.ALLUSERSPROFILE=C:\ProgramData, reactive-streams.version=1.0.3, querydsl.version=4.4.0, thymeleaf-layout-dialect.version=2.5.3, commons-pool.version=1.6, env.ORIGINAL_TMP=C:/Users/Daniel/AppData/Local/Temp, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, jakarta-jms.version=2.0.3, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, maven-help-plugin.version=3.2.0, mimepull.version=1.9.14, json-path.version=2.5.0, johnzon.version=1.2.13, env.USERNAME=Daniel, os.arch=amd64, derby.version=10.14.2.0, javax-jsonb.version=1.0, rxjava2.version=2.2.21, javax-jaxws.version=2.3.1, env.ORIGINAL_TEMP=C:/Users/Daniel/AppData/Local/Temp, json-smart.version=2.4.7, env.VSCODE_GIT_ASKPASS_MAIN=c:\Users\Daniel\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js, h2.version=1.4.200, env.JAVA_HOME=C:/Program Files/Java/jdk-23, java.vm.compressedOopsMode=Zero based, sqlite-jdbc.version=3.34.0, jakarta-servlet-jsp-jstl.version=1.2.7, activemq.version=5.16.2, jtds.version=1.3.1, spring-security.version=5.5.0, hibernate-validator.version=6.2.0.Final, assertj.version=3.19.0, env.SYSTEMDRIVE=C:, influxdb-java.version=2.21, sun.os.patch.level=, maven.compiler.target=11, jakarta-xml-ws.version=2.3.3, env.WINDIR=C:\WINDOWS, commons-pool2.version=2.9.0, spring-retry.version=1.3.1, maven-antrun-plugin.version=1.8, maven.conf=C:\Users\Daniel\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1/conf, sun.java.launcher=SUN_STANDARD, env.VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-2801994b3d-sock, env.ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Daniel\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Daniel\AppData\Local\Microsoft\WindowsApps;C:\Users\Daniel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Daniel\AppData\Roaming\npm;C:\Program Files\Java\jdk-23\bin, javax-json.version=1.1.4, jboss-logging.version=3.4.2.Final, env.MINGW_PACKAGE_PREFIX=mingw-w64-x86_64, maven-resources-plugin.version=3.2.0, javax-validation.version=2.0.1.Final, netty.version=4.1.65.Final, env.VSCODE_GIT_ASKPASS_EXTRA_ARGS=, jetty.version=9.4.42.v20210604, elasticsearch.version=7.12.1, rest-assured.version=4.3.3, log4j2.version=2.14.1, spring-framework.version=5.3.8, git-commit-id-plugin.version=4.0.5, hazelcast-hibernate5.version=2.2.0, htmlunit.version=2.49.1, sun.cpu.isalist=amd64, sun.arch.data.model=64, thymeleaf.version=3.0.12.RELEASE, maven-jar-plugin.version=3.2.0, env.SYSTEMROOT=C:\WINDOWS, maven-compiler-plugin.version=3.8.1, java.specification.vendor=Oracle Corporation, rabbit-amqp-client.version=5.12.0, spring-amqp.version=2.3.8, maven-war-plugin.version=3.3.1, env.SSH_ASKPASS=C:/Program Files/Git/mingw64/bin/git-askpass.exe, user.script=, jsonassert.version=1.5.0, file.encoding=UTF-8, jakarta-annotation.version=1.3.5, env.HOSTNAME=DESKTOP-IG4O8L7, env.HOMEPATH=\Users\Daniel, env.SHLVL=1, liquibase.version=4.3.5, httpcore.version=4.4.14, classworlds.conf=C:\Users\Daniel\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1\bin\m2.conf, sun.io.unicode.encoding=UnicodeLittle, sendgrid.version=4.7.2, env.DISPLAY=needs-to-be-defined, reactor-bom.version=2020.0.7, maven-enforcer-plugin.version=3.0.0-M3, jstl.version=1.2, quartz.version=2.3.2, env.MSYSTEM_PREFIX=C:/Program Files/Git/mingw64, spring-hateoas.version=1.3.1, stdout.encoding=Cp1252, path.separator=;, env.EXEPATH=C:\Program Files\Git\bin, maven.multiModuleProjectDirectory=C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi, env.VSCODE_GIT_ASKPASS_NODE=C:\Users\Daniel\AppData\Local\Programs\Microsoft VS Code\Code.exe, env.MAVEN_PROJECTBASEDIR=C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi, xml-maven-plugin.version=1.0.2, env.MSYSTEM=MINGW64, slf4j.version=1.7.30, r2dbc-bom.version=Arabba-SR10, solr.version=8.8.2, nimbus-jose-jwt.version=9.8.1, hikaricp.version=4.0.3, jakarta-json-bind.version=1.0.2, env.PROCESSOR_REVISION=a503, jersey.version=2.33, user.name=Daniel, env.EFC_6492=1, atomikos.version=4.0.6, aspectj.version=1.9.6, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, env.ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, webjars-locator-core.version=0.46, project.reporting.outputEncoding=UTF-8, env.LOGONSERVER=\\DESKTOP-IG4O8L7, awaitility.version=4.0.3, env.INFOPATH=C:\Program Files\Git\mingw64\local\info;C:\Program Files\Git\mingw64\share\info;C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, env.OLDPWD=C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi, env.MINGW_PREFIX=C:/Program Files/Git/mingw64, dependency-management-plugin.version=1.0.11.RELEASE, java.vm.vendor=Oracle Corporation, user.variant=, maven-javadoc-plugin.version=3.2.0, artemis.version=2.17.0, prometheus-pushgateway.version=0.10.0, sun.cpu.endian=little, versions-maven-plugin.version=2.8.1, user.language=es, javax-mail.version=1.6.2, javax-annotation.version=1.3.2, mysql.version=8.0.25, classmate.version=1.5.1, antlr2.version=2.7.7, env.MSYSTEM_CARCH=x86_64, env.PKG_CONFIG_SYSTEM_INCLUDE_PATH=C:/Program Files/Git/mingw64/include, jooq.version=3.14.11, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.vm.version=23.0.2+7-58, jakarta-activation.version=1.2.2}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] Copying file application.properties
+[DEBUG] file application.properties has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'application.properties'.
+[DEBUG] filtering C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\resources\application.properties to C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes\application.properties
+[DEBUG] resource with targetPath null
+directory C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ fichajesPi.backend ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=116400, ConflictMarker.markTime=56100, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=114600, ConflictIdSorter.topsortTime=31000, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=476600, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=137020500, DefaultDependencyCollector.transformTime=816100}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.10:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1, parent: java.net.URLClassLoader@1cf4f579]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi
+[DEBUG]   (f) buildDirectory = C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target
+[DEBUG]   (f) compilePath = [C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.1\spring-boot-starter-data-jpa-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.1\spring-boot-starter-aop-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.1\spring-boot-starter-jdbc-2.5.1.jar, C:\Users\Daniel\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-jdbc\5.3.8\spring-jdbc-5.3.8.jar, C:\Users\Daniel\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar, C:\Users\Daniel\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar, C:\Users\Daniel\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar, C:\Users\Daniel\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar, C:\Users\Daniel\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar, C:\Users\Daniel\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar, C:\Users\Daniel\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar, C:\Users\Daniel\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar, C:\Users\Daniel\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar, C:\Users\Daniel\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar, C:\Users\Daniel\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar, C:\Users\Daniel\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar, C:\Users\Daniel\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar, C:\Users\Daniel\.m2\repository\org\springframework\data\spring-data-jpa\2.5.1\spring-data-jpa-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\data\spring-data-commons\2.5.1\spring-data-commons-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-orm\5.3.8\spring-orm-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-context\5.3.8\spring-context-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-tx\5.3.8\spring-tx-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-beans\5.3.8\spring-beans-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-aspects\5.3.8\spring-aspects-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.1\spring-boot-starter-web-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.1\spring-boot-starter-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot\2.5.1\spring-boot-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.1\spring-boot-autoconfigure-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.1\spring-boot-starter-logging-2.5.1.jar, C:\Users\Daniel\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar, C:\Users\Daniel\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar, C:\Users\Daniel\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar, C:\Users\Daniel\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar, C:\Users\Daniel\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar, C:\Users\Daniel\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar, C:\Users\Daniel\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.1\spring-boot-starter-json-2.5.1.jar, C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar, C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar, C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.1\spring-boot-starter-tomcat-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.46\tomcat-embed-core-9.0.46.jar, C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.46\tomcat-embed-el-9.0.46.jar, C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.46\tomcat-embed-websocket-9.0.46.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-web\5.3.8\spring-web-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-webmvc\5.3.8\spring-webmvc-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-expression\5.3.8\spring-expression-5.3.8.jar, C:\Users\Daniel\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar, C:\Users\Daniel\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar, C:\Users\Daniel\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar, C:\Users\Daniel\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-core\5.3.8\spring-core-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-jcl\5.3.8\spring-jcl-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\modelmapper\modelmapper\2.3.5\modelmapper-2.3.5.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-mail\2.5.1\spring-boot-starter-mail-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-context-support\5.3.8\spring-context-support-5.3.8.jar, C:\Users\Daniel\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar, C:\Users\Daniel\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar, C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.5.1\spring-boot-starter-security-2.5.1.jar, C:\Users\Daniel\.m2\repository\org\springframework\spring-aop\5.3.8\spring-aop-5.3.8.jar, C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-config\5.5.0\spring-security-config-5.5.0.jar, C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-web\5.5.0\spring-security-web-5.5.0.jar, C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-core\5.5.0\spring-security-core-5.5.0.jar, C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-crypto\5.5.0\spring-security-crypto-5.5.0.jar, C:\Users\Daniel\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar, C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar, C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar, C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar, C:\Users\Daniel\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.10\nimbus-jose-jwt-9.10.jar, C:\Users\Daniel\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar, C:\Users\Daniel\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar, C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger2\2.9.2\springfox-swagger2-2.9.2.jar, C:\Users\Daniel\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar, C:\Users\Daniel\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar, C:\Users\Daniel\.m2\repository\io\springfox\springfox-spi\2.9.2\springfox-spi-2.9.2.jar, C:\Users\Daniel\.m2\repository\io\springfox\springfox-core\2.9.2\springfox-core-2.9.2.jar, C:\Users\Daniel\.m2\repository\io\springfox\springfox-schema\2.9.2\springfox-schema-2.9.2.jar, C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger-common\2.9.2\springfox-swagger-common-2.9.2.jar, C:\Users\Daniel\.m2\repository\io\springfox\springfox-spring-web\2.9.2\springfox-spring-web-2.9.2.jar, C:\Users\Daniel\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar, C:\Users\Daniel\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar, C:\Users\Daniel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar, C:\Users\Daniel\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar, C:\Users\Daniel\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar, C:\Users\Daniel\.m2\repository\org\mapstruct\mapstruct\1.2.0.Final\mapstruct-1.2.0.Final.jar, C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger-ui\2.9.2\springfox-swagger-ui-2.9.2.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: com.fichajespi:fichajesPi.backend:0.0.1-SNAPSHOT @ C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\pom.xml
+[DEBUG]   (f) projectArtifact = com.fichajespi:fichajesPi.backend:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@74aa9c72
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 11
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 11
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\generated-sources\annotations to compile source roots:
+  C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java
+[DEBUG] New compile source roots:
+  C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java
+  C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\VacacionesDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\interfaces\ITopIncidencias.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\FichajeService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\RolService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\DiaController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\RolRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\Application.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\common\CommonSpecificationImpl.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\CalendarioService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\IncidenciaSpecifications.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\entity\DiaLaborable.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\common\CommonServiceImpl.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\entity\enums\TipoGrupoEnum.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\entity\TipoGrupo.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\PermisoDtoFilter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\UsuarioDtoEditPassword.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\DiaDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\CentrosDeTrabajoDtoFilter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\GrupoRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\Mensaje.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\FichajeDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\IncidenciaService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\PermisoService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\DiaLaborableRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\TestController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\jwt\JwtTokenFilter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\config\WebConfig.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\events\EventSender.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\events\Incidencias.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\logger\LoggerService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\FichajeController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\PermisoRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\CentrosDeTrabajoDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\UsuarioSpecifications.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\ChartDataDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\GrupoController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\DiaDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\CentrosDeTrabajoRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\VacacionesService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\CalendarioRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\FichajeRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\UsuarioDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\UsuarioDtoFilter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\PermisoSpecifications.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\common\UserSpecificationImpl.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\FichajeDtoReqRes.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\jwt\JwtProvider.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\GrupoSpecifications.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\entity\enums\TipoFichaje.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\IncidenciaRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\CalendarioDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\UsuarioDtoEdit.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\VacacionesDtoFilter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\interfaces\IUsuarioDtoEstadistica.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\GrupoService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\IncidenciaDtoFilter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\CentrosDeTrabajoService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\FichajeDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\VacacionesDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\PermisoDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\CentrosDeTrabajoDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\entity\UsuarioPrincipal.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\GrupoDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\PermisosController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\UsuarioController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\jwt\JwtEntryPoint.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\common\SpecificationTemplate.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\GrupoDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\entity\enums\EstadosTrabajador.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\common\SpecificationHelper.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\repository\UsuarioRepository.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\CalendarioController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\CalendarioDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\config\AsyncConfiguration.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\schedule\ScheduledTasks.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\dto\JwtDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\entity\enums\EstadosPeticion.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\MainSecurity.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\FichajeSpecifications.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\IncidenciaController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\CentrosDeTrabajoDtoEdit.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\UsuarioDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\CentrosDeTrabajoSpecifications.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\entity\Calendario.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\service\GetInfoFromToken.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\entity\RrhhDto.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\GrupoDtoEdit.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\IncidenciaDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\service\UserDetailsServiceImpl.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\converter\PermisoDtoConverter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\UsuarioService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\IncidenciaDtoEdit.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\service\DiaLaborableService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\config\SwaggerConfig.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\VacacionesController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\controller\AuthController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\dto\entity\GrupoDtoFilter.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\controller\CentrosDeTrabajoController.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\mail\EmailService.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\dto\LoginUsuario.java
+[DEBUG] Stale source detected: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\specifications\VacacionesSpecifications.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.1\spring-boot-starter-data-jpa-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.1\spring-boot-starter-aop-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.1\spring-boot-starter-jdbc-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-jdbc\5.3.8\spring-jdbc-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\data\spring-data-jpa\2.5.1\spring-data-jpa-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\data\spring-data-commons\2.5.1\spring-data-commons-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-orm\5.3.8\spring-orm-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-context\5.3.8\spring-context-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-tx\5.3.8\spring-tx-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-beans\5.3.8\spring-beans-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-aspects\5.3.8\spring-aspects-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.1\spring-boot-starter-web-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.1\spring-boot-starter-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot\2.5.1\spring-boot-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.1\spring-boot-autoconfigure-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.1\spring-boot-starter-logging-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.1\spring-boot-starter-json-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.1\spring-boot-starter-tomcat-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.46\tomcat-embed-core-9.0.46.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.46\tomcat-embed-el-9.0.46.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.46\tomcat-embed-websocket-9.0.46.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-web\5.3.8\spring-web-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-webmvc\5.3.8\spring-webmvc-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-expression\5.3.8\spring-expression-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-core\5.3.8\spring-core-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-jcl\5.3.8\spring-jcl-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\modelmapper\modelmapper\2.3.5\modelmapper-2.3.5.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-mail\2.5.1\spring-boot-starter-mail-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-context-support\5.3.8\spring-context-support-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.5.1\spring-boot-starter-security-2.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\spring-aop\5.3.8\spring-aop-5.3.8.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-config\5.5.0\spring-security-config-5.5.0.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-web\5.5.0\spring-security-web-5.5.0.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-core\5.5.0\spring-security-core-5.5.0.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-crypto\5.5.0\spring-security-crypto-5.5.0.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.10\nimbus-jose-jwt-9.10.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger2\2.9.2\springfox-swagger2-2.9.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\springfox\springfox-spi\2.9.2\springfox-spi-2.9.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\springfox\springfox-core\2.9.2\springfox-core-2.9.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\springfox\springfox-schema\2.9.2\springfox-schema-2.9.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger-common\2.9.2\springfox-swagger-common-2.9.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\springfox\springfox-spring-web\2.9.2\springfox-spring-web-2.9.2.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\org\mapstruct\mapstruct\1.2.0.Final\mapstruct-1.2.0.Final.jar
+[DEBUG]  C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger-ui\2.9.2\springfox-swagger-ui-2.9.2.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java
+[DEBUG]  C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\generated-sources\annotations
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes -classpath C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.1\spring-boot-starter-data-jpa-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.1\spring-boot-starter-aop-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.1\spring-boot-starter-jdbc-2.5.1.jar;C:\Users\Daniel\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-jdbc\5.3.8\spring-jdbc-5.3.8.jar;C:\Users\Daniel\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\Daniel\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\Daniel\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\Daniel\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\Daniel\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Daniel\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\Daniel\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Daniel\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Daniel\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Daniel\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Daniel\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\Daniel\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\Daniel\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\Daniel\.m2\repository\org\springframework\data\spring-data-jpa\2.5.1\spring-data-jpa-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\data\spring-data-commons\2.5.1\spring-data-commons-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-orm\5.3.8\spring-orm-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-context\5.3.8\spring-context-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-tx\5.3.8\spring-tx-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-beans\5.3.8\spring-beans-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-aspects\5.3.8\spring-aspects-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.1\spring-boot-starter-web-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.1\spring-boot-starter-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot\2.5.1\spring-boot-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.1\spring-boot-autoconfigure-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.1\spring-boot-starter-logging-2.5.1.jar;C:\Users\Daniel\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Daniel\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Daniel\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\Daniel\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Daniel\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\Daniel\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Daniel\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.1\spring-boot-starter-json-2.5.1.jar;C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar;C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar;C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.1\spring-boot-starter-tomcat-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.46\tomcat-embed-core-9.0.46.jar;C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.46\tomcat-embed-el-9.0.46.jar;C:\Users\Daniel\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.46\tomcat-embed-websocket-9.0.46.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-web\5.3.8\spring-web-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-webmvc\5.3.8\spring-webmvc-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-expression\5.3.8\spring-expression-5.3.8.jar;C:\Users\Daniel\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Daniel\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Daniel\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Daniel\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-core\5.3.8\spring-core-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-jcl\5.3.8\spring-jcl-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\modelmapper\modelmapper\2.3.5\modelmapper-2.3.5.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-mail\2.5.1\spring-boot-starter-mail-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-context-support\5.3.8\spring-context-support-5.3.8.jar;C:\Users\Daniel\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\Daniel\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Daniel\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.5.1\spring-boot-starter-security-2.5.1.jar;C:\Users\Daniel\.m2\repository\org\springframework\spring-aop\5.3.8\spring-aop-5.3.8.jar;C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-config\5.5.0\spring-security-config-5.5.0.jar;C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-web\5.5.0\spring-security-web-5.5.0.jar;C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-core\5.5.0\spring-security-core-5.5.0.jar;C:\Users\Daniel\.m2\repository\org\springframework\security\spring-security-crypto\5.5.0\spring-security-crypto-5.5.0.jar;C:\Users\Daniel\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar;C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Daniel\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Daniel\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.10\nimbus-jose-jwt-9.10.jar;C:\Users\Daniel\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\Daniel\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger2\2.9.2\springfox-swagger2-2.9.2.jar;C:\Users\Daniel\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\Daniel\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\Daniel\.m2\repository\io\springfox\springfox-spi\2.9.2\springfox-spi-2.9.2.jar;C:\Users\Daniel\.m2\repository\io\springfox\springfox-core\2.9.2\springfox-core-2.9.2.jar;C:\Users\Daniel\.m2\repository\io\springfox\springfox-schema\2.9.2\springfox-schema-2.9.2.jar;C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger-common\2.9.2\springfox-swagger-common-2.9.2.jar;C:\Users\Daniel\.m2\repository\io\springfox\springfox-spring-web\2.9.2\springfox-spring-web-2.9.2.jar;C:\Users\Daniel\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\Daniel\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Daniel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Daniel\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\Daniel\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\Daniel\.m2\repository\org\mapstruct\mapstruct\1.2.0.Final\mapstruct-1.2.0.Final.jar;C:\Users\Daniel\.m2\repository\io\springfox\springfox-swagger-ui\2.9.2\springfox-swagger-ui-2.9.2.jar; -sourcepath C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java;C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\generated-sources\annotations; -s C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\generated-sources\annotations -g -parameters -nowarn -target 11 -source 11 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 113 source files to C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/security/controller/AuthController.java: C:\Users\Daniel\Documents\TrabajoPracticas\ServiCheck\spring-boot_fichajesPi\src\main\java\com\fichajespi\security\controller\AuthController.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/security/controller/AuthController.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[35,29] cannot find symbol
+  symbol:   method getEmail()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[36,55] cannot find symbol
+  symbol:   method getPassword()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[37,30] cannot find symbol
+  symbol:   method getNumero()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[38,38] cannot find symbol
+  symbol:   method getNombreEmpleado()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[39,27] cannot find symbol
+  symbol:   method getDni()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[40,16] cannot find symbol
+  symbol:   method setDiasVacaciones(int)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[41,16] cannot find symbol
+  symbol:   method setHorasGeneradas(double)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[42,16] cannot find symbol
+  symbol:   method setEnVacaciones(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[43,16] cannot find symbol
+  symbol:   method setDeBaja(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[44,16] cannot find symbol
+  symbol:   method setWorking(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[45,16] cannot find symbol
+  symbol:   method setAdmin(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[49,16] cannot find symbol
+  symbol:   method getRoles()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[50,20] cannot find symbol
+  symbol:   method getRoles()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[54,16] cannot find symbol
+  symbol:   method setRoles(java.util.List<com.fichajespi.entity.Rol>)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[57,16] cannot find symbol
+  symbol:   method getCentrosDeTrabajoIds()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[59,31] cannot find symbol
+  symbol:   method getCentrosDeTrabajoIds()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[61,23] cannot find symbol
+  symbol:   method setId(java.lang.Long)
+  location: variable centro of type com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[64,20] cannot find symbol
+  symbol:   method setCentrosDeTrabajo(java.util.List<com.fichajespi.entity.CentrosDeTrabajo>)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[73,29] cannot find symbol
+  symbol:   method getEmail()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[75,30] cannot find symbol
+  symbol:   method getNumero()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[77,27] cannot find symbol
+  symbol:   method getPassword()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[81,16] cannot find symbol
+  symbol:   method setPassword(java.lang.String)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[82,30] cannot find symbol
+  symbol:   method getNumero()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[83,38] cannot find symbol
+  symbol:   method getNombreEmpleado()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[84,27] cannot find symbol
+  symbol:   method getDni()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[85,16] cannot find symbol
+  symbol:   method setDiasVacaciones(int)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[86,16] cannot find symbol
+  symbol:   method setHorasGeneradas(double)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[87,16] cannot find symbol
+  symbol:   method setEnVacaciones(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[88,16] cannot find symbol
+  symbol:   method setDeBaja(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[89,16] cannot find symbol
+  symbol:   method setWorking(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[90,16] cannot find symbol
+  symbol:   method setAdmin(boolean)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[95,16] cannot find symbol
+  symbol:   method getRoles()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[96,20] cannot find symbol
+  symbol:   method getRoles()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[102,16] cannot find symbol
+  symbol:   method setRoles(java.util.List<com.fichajespi.entity.Rol>)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[104,16] cannot find symbol
+  symbol:   method getCentrosDeTrabajoIds()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[106,31] cannot find symbol
+  symbol:   method getCentrosDeTrabajoIds()
+  location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[108,23] cannot find symbol
+  symbol:   method setId(java.lang.Long)
+  location: variable centro of type com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[111,20] cannot find symbol
+  symbol:   method setCentrosDeTrabajo(java.util.List<com.fichajespi.entity.CentrosDeTrabajo>)
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[115,71] cannot find symbol
+  symbol:   method getNumero()
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[121,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[132,33] cannot find symbol
+  symbol:   method builder()
+  location: class com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[133,38] cannot find symbol
+  symbol:   method getId()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[134,41] cannot find symbol
+  symbol:   method getEmail()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[135,42] cannot find symbol
+  symbol:   method getNumero()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[136,50] cannot find symbol
+  symbol:   method getNombreEmpleado()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[137,39] cannot find symbol
+  symbol:   method getDni()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[138,50] cannot find symbol
+  symbol:   method getDiasVacaciones()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[139,50] cannot find symbol
+  symbol:   method getHorasGeneradas()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[140,43] cannot find symbol
+  symbol:   method getWorking()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[141,48] cannot find symbol
+  symbol:   method getEnVacaciones()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[142,42] cannot find symbol
+  symbol:   method getDeBaja()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[143,55] cannot find symbol
+  symbol:   method getCentrosDeTrabajo()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[144,42] cannot find symbol
+  symbol:   method getCentrosDeTrabajo()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[144,78] invalid method reference
+  cannot find symbol
+    symbol:   method getId()
+    location: class com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[149,26] cannot find symbol
+  symbol:   method getEmail()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[151,27] cannot find symbol
+  symbol:   method getNumero()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[152,35] cannot find symbol
+  symbol:   method getNombreEmpleado()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[153,24] cannot find symbol
+  symbol:   method getDni()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[154,35] cannot find symbol
+  symbol:   method getDiasVacaciones()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[155,35] cannot find symbol
+  symbol:   method getHorasGeneradas()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[156,33] cannot find symbol
+  symbol:   method getEnVacaciones()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[157,27] cannot find symbol
+  symbol:   method getDeBaja()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[158,28] cannot find symbol
+  symbol:   method getWorking()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[161,27] cannot find symbol
+  symbol:   method getCentrosDeTrabajoIds()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[163,46] cannot find symbol
+  symbol:   method getCentrosDeTrabajoIds()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[165,39] cannot find symbol
+  symbol:   method setId(java.lang.Long)
+  location: variable centro of type com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[168,26] cannot find symbol
+  symbol:   method setCentrosDeTrabajo(java.util.List<com.fichajespi.entity.CentrosDeTrabajo>)
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[175,52] cannot find symbol
+  symbol:   method getPassword()
+  location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEditPassword
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/mail/EmailService.java:[62,44] cannot find symbol
+  symbol:   method getEmail()
+  location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/mail/EmailService.java:[62,64] incompatible types: inference variable T has incompatible bounds
+    equality constraints: java.lang.String
+    lower bounds: java.lang.Object
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/mail/EmailService.java:[64,46] cannot find symbol
+  symbol:   method getEmail()
+  location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[50,57] cannot find symbol
+  symbol:   method getDias()
+  location: variable calendarioDto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[54,39] constructor Mensaje in class com.fichajespi.dto.entity.Mensaje cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[77,39] cannot find symbol
+  symbol:   method getId()
+  location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[78,41] cannot find symbol
+  symbol:   method getYear()
+  location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[79,43] cannot find symbol
+  symbol:   method getNombre()
+  location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[80,54] cannot find symbol
+  symbol:   method getMinutosMasEntrada()
+  location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[81,56] cannot find symbol
+  symbol:   method getMinutosMenosEntrada()
+  location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[82,43] cannot find symbol
+  symbol:   method isActive()
+  location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[83,31] cannot find symbol
+  symbol:   method getDias()
+  location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/service/CalendarioService.java:[31,30] cannot find symbol
+  symbol:   method getYear()
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/service/CalendarioService.java:[32,34] cannot find symbol
+  symbol:   method setActive(boolean)
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/service/CalendarioService.java:[35,34] cannot find symbol
+  symbol:   method setActive(boolean)
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[16,32] cannot find symbol
+  symbol:   method getNombre()
+  location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[17,43] cannot find symbol
+  symbol:   method getMinutosMasEntrada()
+  location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[18,45] cannot find symbol
+  symbol:   method getMinutosMenosEntrada()
+  location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[19,30] cannot find symbol
+  symbol:   method getYear()
+  location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[29,28] cannot find symbol
+  symbol:   method getId()
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[30,32] cannot find symbol
+  symbol:   method getNombre()
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[31,30] cannot find symbol
+  symbol:   method getYear()
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[32,43] cannot find symbol
+  symbol:   method getMinutosMasEntrada()
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[33,45] cannot find symbol
+  symbol:   method getMinutosMenosEntrada()
+  location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/DiaController.java:[62,40] cannot find symbol
+  symbol:   method getDia()
+  location: variable editar of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/DiaController.java:[63,47] cannot find symbol
+  symbol:   method getHoraInicio()
+  location: variable editar of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/DiaController.java:[64,44] cannot find symbol
+  symbol:   method getHoraFin()
+  location: variable editar of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[19,31] cannot find symbol
+  symbol:   method getDia()
+  location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[20,38] cannot find symbol
+  symbol:   method getHoraInicio()
+  location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[21,35] cannot find symbol
+  symbol:   method getHoraFin()
+  location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[23,50] cannot find symbol
+  symbol:   method getCalendarioNombre()
+  location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[25,20] cannot find symbol
+  symbol:   method setCalendario(com.fichajespi.entity.Calendario)
+  location: variable dia of type com.fichajespi.entity.DiaLaborable
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.579 s
+[INFO] Finished at: 2025-02-28T10:19:11Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project fichajesPi.backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[35,29] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[36,55] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[37,30] cannot find symbol
+[ERROR]   symbol:   method getNumero()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[38,38] cannot find symbol
+[ERROR]   symbol:   method getNombreEmpleado()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[39,27] cannot find symbol
+[ERROR]   symbol:   method getDni()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[40,16] cannot find symbol
+[ERROR]   symbol:   method setDiasVacaciones(int)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[41,16] cannot find symbol
+[ERROR]   symbol:   method setHorasGeneradas(double)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[42,16] cannot find symbol
+[ERROR]   symbol:   method setEnVacaciones(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[43,16] cannot find symbol
+[ERROR]   symbol:   method setDeBaja(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[44,16] cannot find symbol
+[ERROR]   symbol:   method setWorking(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[45,16] cannot find symbol
+[ERROR]   symbol:   method setAdmin(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[49,16] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[50,20] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[54,16] cannot find symbol
+[ERROR]   symbol:   method setRoles(java.util.List<com.fichajespi.entity.Rol>)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[57,16] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajoIds()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[59,31] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajoIds()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[61,23] cannot find symbol
+[ERROR]   symbol:   method setId(java.lang.Long)
+[ERROR]   location: variable centro of type com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[64,20] cannot find symbol
+[ERROR]   symbol:   method setCentrosDeTrabajo(java.util.List<com.fichajespi.entity.CentrosDeTrabajo>)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[73,29] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[75,30] cannot find symbol
+[ERROR]   symbol:   method getNumero()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[77,27] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[81,16] cannot find symbol
+[ERROR]   symbol:   method setPassword(java.lang.String)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[82,30] cannot find symbol
+[ERROR]   symbol:   method getNumero()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[83,38] cannot find symbol
+[ERROR]   symbol:   method getNombreEmpleado()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[84,27] cannot find symbol
+[ERROR]   symbol:   method getDni()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[85,16] cannot find symbol
+[ERROR]   symbol:   method setDiasVacaciones(int)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[86,16] cannot find symbol
+[ERROR]   symbol:   method setHorasGeneradas(double)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[87,16] cannot find symbol
+[ERROR]   symbol:   method setEnVacaciones(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[88,16] cannot find symbol
+[ERROR]   symbol:   method setDeBaja(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[89,16] cannot find symbol
+[ERROR]   symbol:   method setWorking(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[90,16] cannot find symbol
+[ERROR]   symbol:   method setAdmin(boolean)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[95,16] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[96,20] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[102,16] cannot find symbol
+[ERROR]   symbol:   method setRoles(java.util.List<com.fichajespi.entity.Rol>)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[104,16] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajoIds()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[106,31] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajoIds()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[108,23] cannot find symbol
+[ERROR]   symbol:   method setId(java.lang.Long)
+[ERROR]   location: variable centro of type com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[111,20] cannot find symbol
+[ERROR]   symbol:   method setCentrosDeTrabajo(java.util.List<com.fichajespi.entity.CentrosDeTrabajo>)
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[115,71] cannot find symbol
+[ERROR]   symbol:   method getNumero()
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[121,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[132,33] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fichajespi.dto.entity.UsuarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[133,38] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[134,41] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[135,42] cannot find symbol
+[ERROR]   symbol:   method getNumero()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[136,50] cannot find symbol
+[ERROR]   symbol:   method getNombreEmpleado()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[137,39] cannot find symbol
+[ERROR]   symbol:   method getDni()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[138,50] cannot find symbol
+[ERROR]   symbol:   method getDiasVacaciones()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[139,50] cannot find symbol
+[ERROR]   symbol:   method getHorasGeneradas()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[140,43] cannot find symbol
+[ERROR]   symbol:   method getWorking()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[141,48] cannot find symbol
+[ERROR]   symbol:   method getEnVacaciones()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[142,42] cannot find symbol
+[ERROR]   symbol:   method getDeBaja()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[143,55] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajo()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[144,42] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajo()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[144,78] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getId()
+[ERROR]     location: class com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[149,26] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[151,27] cannot find symbol
+[ERROR]   symbol:   method getNumero()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[152,35] cannot find symbol
+[ERROR]   symbol:   method getNombreEmpleado()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[153,24] cannot find symbol
+[ERROR]   symbol:   method getDni()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[154,35] cannot find symbol
+[ERROR]   symbol:   method getDiasVacaciones()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[155,35] cannot find symbol
+[ERROR]   symbol:   method getHorasGeneradas()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[156,33] cannot find symbol
+[ERROR]   symbol:   method getEnVacaciones()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[157,27] cannot find symbol
+[ERROR]   symbol:   method getDeBaja()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[158,28] cannot find symbol
+[ERROR]   symbol:   method getWorking()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[161,27] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajoIds()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[163,46] cannot find symbol
+[ERROR]   symbol:   method getCentrosDeTrabajoIds()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEdit
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[165,39] cannot find symbol
+[ERROR]   symbol:   method setId(java.lang.Long)
+[ERROR]   location: variable centro of type com.fichajespi.entity.CentrosDeTrabajo
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[168,26] cannot find symbol
+[ERROR]   symbol:   method setCentrosDeTrabajo(java.util.List<com.fichajespi.entity.CentrosDeTrabajo>)
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/UsuarioDtoConverter.java:[175,52] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.UsuarioDtoEditPassword
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/mail/EmailService.java:[62,44] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable u of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/mail/EmailService.java:[62,64] incompatible types: inference variable T has incompatible bounds
+[ERROR]     equality constraints: java.lang.String
+[ERROR]     lower bounds: java.lang.Object
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/mail/EmailService.java:[64,46] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable usuario of type com.fichajespi.entity.Usuario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[50,57] cannot find symbol
+[ERROR]   symbol:   method getDias()
+[ERROR]   location: variable calendarioDto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[54,39] constructor Mensaje in class com.fichajespi.dto.entity.Mensaje cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[77,39] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[78,41] cannot find symbol
+[ERROR]   symbol:   method getYear()
+[ERROR]   location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[79,43] cannot find symbol
+[ERROR]   symbol:   method getNombre()
+[ERROR]   location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[80,54] cannot find symbol
+[ERROR]   symbol:   method getMinutosMasEntrada()
+[ERROR]   location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[81,56] cannot find symbol
+[ERROR]   symbol:   method getMinutosMenosEntrada()
+[ERROR]   location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[82,43] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/CalendarioController.java:[83,31] cannot find symbol
+[ERROR]   symbol:   method getDias()
+[ERROR]   location: variable editar of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/service/CalendarioService.java:[31,30] cannot find symbol
+[ERROR]   symbol:   method getYear()
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/service/CalendarioService.java:[32,34] cannot find symbol
+[ERROR]   symbol:   method setActive(boolean)
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/service/CalendarioService.java:[35,34] cannot find symbol
+[ERROR]   symbol:   method setActive(boolean)
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[16,32] cannot find symbol
+[ERROR]   symbol:   method getNombre()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[17,43] cannot find symbol
+[ERROR]   symbol:   method getMinutosMasEntrada()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[18,45] cannot find symbol
+[ERROR]   symbol:   method getMinutosMenosEntrada()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[19,30] cannot find symbol
+[ERROR]   symbol:   method getYear()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.CalendarioDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[29,28] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[30,32] cannot find symbol
+[ERROR]   symbol:   method getNombre()
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[31,30] cannot find symbol
+[ERROR]   symbol:   method getYear()
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[32,43] cannot find symbol
+[ERROR]   symbol:   method getMinutosMasEntrada()
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/CalendarioDtoConverter.java:[33,45] cannot find symbol
+[ERROR]   symbol:   method getMinutosMenosEntrada()
+[ERROR]   location: variable c of type com.fichajespi.entity.Calendario
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/DiaController.java:[62,40] cannot find symbol
+[ERROR]   symbol:   method getDia()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/DiaController.java:[63,47] cannot find symbol
+[ERROR]   symbol:   method getHoraInicio()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/controller/DiaController.java:[64,44] cannot find symbol
+[ERROR]   symbol:   method getHoraFin()
+[ERROR]   location: variable editar of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[19,31] cannot find symbol
+[ERROR]   symbol:   method getDia()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[20,38] cannot find symbol
+[ERROR]   symbol:   method getHoraInicio()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[21,35] cannot find symbol
+[ERROR]   symbol:   method getHoraFin()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[23,50] cannot find symbol
+[ERROR]   symbol:   method getCalendarioNombre()
+[ERROR]   location: variable dto of type com.fichajespi.dto.entity.DiaDto
+[ERROR] /C:/Users/Daniel/Documents/TrabajoPracticas/ServiCheck/spring-boot_fichajesPi/src/main/java/com/fichajespi/dto/converter/DiaDtoConverter.java:[25,20] cannot find symbol
+[ERROR]   symbol:   method setCalendario(com.fichajespi.entity.Calendario)
+[ERROR]   location: variable dia of type com.fichajespi.entity.DiaLaborable
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project fichajesPi.backend: Compilation failure
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:39)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:122)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:61)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1220)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:187)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:39)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:122)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:61)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

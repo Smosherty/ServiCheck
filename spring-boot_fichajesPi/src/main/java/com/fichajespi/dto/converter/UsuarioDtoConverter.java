@@ -63,7 +63,6 @@ public class UsuarioDtoConverter {
             }
             usuario.setCentrosDeTrabajo(centrosDeTrabajo);
         }
-
         return usuario;
 
     }

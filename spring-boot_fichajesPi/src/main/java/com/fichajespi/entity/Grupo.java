@@ -12,17 +12,25 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
-import com.sun.istack.NotNull;
+
+
 
 import org.springframework.data.annotation.Transient;
 
-import lombok.Data;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import com.sun.istack.NotNull;
 
-@Data
-@NoArgsConstructor
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@ToString
+@Setter
+@Getter
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name = "grupos")
 public class Grupo {

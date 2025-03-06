@@ -7,7 +7,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=fichajesroot #Cambiar password si se desea
+      # - MYSQL_ROOT_PASSWORD=fichajesroot #Cambiar password si se desea
       - TZ=Europe/Madrid
       - MYSQL_DATABASE=db_fichajespi
       - MYSQL_USER=fichajes #Cambiar usuario si se desea

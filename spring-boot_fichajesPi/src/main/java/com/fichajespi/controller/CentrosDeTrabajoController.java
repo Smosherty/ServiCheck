@@ -27,7 +27,7 @@ import com.fichajespi.specifications.CentrosDeTrabajoSpecifications;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping("/centroDeTrabajo")
+@RequestMapping("/api/centrosDeTrabajo")
 public class CentrosDeTrabajoController extends CommonController<CentrosDeTrabajo, CentrosDeTrabajoService> {
 
     @Autowired
@@ -58,7 +58,7 @@ public class CentrosDeTrabajoController extends CommonController<CentrosDeTrabaj
     }
 
     @ApiOperation("Obtiene un centro de trabajo por su id")
-    @GetMapping("/{id}")
+    @GetMapping("/get/{id}")
     public ResponseEntity<CentrosDeTrabajoDto> getCentroDeTrabajoById(@PathVariable Long id) {
         return service.findById(id)
                 .map(centro -> ResponseEntity.ok(dtoConverter.inverseTransform(centro)))
@@ -74,7 +74,7 @@ public class CentrosDeTrabajoController extends CommonController<CentrosDeTrabaj
     }
 
     @ApiOperation("Edita un centro de trabajo")
-    @PutMapping("/{id}")
+    @PutMapping("/put/{id}")
     public ResponseEntity<?> editCentroDeTrabajo(@PathVariable Long id, @RequestBody CentrosDeTrabajoDtoEdit centroDtoEdit) {
         return service.findById(id).map(centro -> {
             centro = dtoConverter.transformEdit(centro, centroDtoEdit);
@@ -84,7 +84,7 @@ public class CentrosDeTrabajoController extends CommonController<CentrosDeTrabaj
     }
 
     @ApiOperation("Elimina un centro de trabajo por su id")
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<Void> deleteCentroDeTrabajo(@PathVariable Long id) {
         service.delete(id);
         return ResponseEntity.noContent().build();

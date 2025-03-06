@@ -21,7 +21,7 @@ import com.fichajespi.specifications.GrupoSpecifications;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping("/grupo")
+@RequestMapping("/api/grupos")
 public class GrupoController extends CommonController<Grupo, GrupoService> {
 
     @Autowired
@@ -57,7 +57,7 @@ public class GrupoController extends CommonController<Grupo, GrupoService> {
     }
 
     @ApiOperation("Obtiene un grupo por su id")
-    @GetMapping("/{id}")
+    @GetMapping("/get/{id}")
     public ResponseEntity<GrupoDto> getGroupById(@PathVariable Long id) {
         return service.findById(id)
                 .map(grupo -> ResponseEntity.ok(dtoConverter.inverseTransform(grupo)))
@@ -76,7 +76,7 @@ public class GrupoController extends CommonController<Grupo, GrupoService> {
     }
 
     @ApiOperation("Edita un grupo")
-    @PutMapping("/{id}")
+    @PutMapping("/put/{id}")
     public ResponseEntity<?> editGroup(@PathVariable Long id, @RequestBody GrupoDtoEdit grupoDtoEdit) {
         return service.findById(id).map(grupo -> {
             if (service.existsByEmail(grupoDtoEdit.getEmail()) && !grupo.getEmail().equals(grupoDtoEdit.getEmail())) {
@@ -89,7 +89,7 @@ public class GrupoController extends CommonController<Grupo, GrupoService> {
     }
 
     @ApiOperation("Elimina un grupo por su id")
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<Void> deleteGroup(@PathVariable Long id) {
         service.delete(id);
         return ResponseEntity.noContent().build();

@@ -10,12 +10,12 @@ import org.springframework.stereotype.Repository;
 import com.fichajespi.entity.CentrosDeTrabajo;
 
 @Repository
-public interface CentrosDeTrabajoRepository extends JpaRepository<CentrosDeTrabajo, Long>, 
+public interface CentrosDeTrabajoRepository extends JpaRepository<CentrosDeTrabajo, Long>,
         JpaSpecificationExecutor<CentrosDeTrabajo> {
 
     List<CentrosDeTrabajo> findByNombre(String nombre);
 
-    List<CentrosDeTrabajo> findByGrupoId(Long grupoId);
+    List<CentrosDeTrabajo> findByGrupo_Id(Long grupoId);
 
     Optional<CentrosDeTrabajo> findByEmail(String email);
 

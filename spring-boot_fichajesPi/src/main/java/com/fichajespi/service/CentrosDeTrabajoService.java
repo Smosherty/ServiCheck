@@ -24,7 +24,7 @@ public class CentrosDeTrabajoService extends CommonServiceImpl<CentrosDeTrabajo,
     }
 
     public List<CentrosDeTrabajo> findByGrupoId(Long grupoId) {
-        return repository.findByGrupoId(grupoId);
+        return repository.findByGrupo_Id(grupoId);
     }
 
     public boolean existsByNombre(String nombre) {

@@ -20,7 +20,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-
 @ToString
 @Setter
 @Getter
@@ -58,10 +57,17 @@ public class CentrosDeTrabajo {
     @JoinColumn(name = "grupo_id", nullable = false)
     private Grupo grupo;
 
-    @ManyToMany(mappedBy = "centrosDeTrabajo", fetch = FetchType.LAZY )
-    private List<Usuario> usuarios; // Relación inversa para los usuarios
+    @ManyToMany(mappedBy = "centrosDeTrabajo", fetch = FetchType.LAZY)
+    private List<Usuario> usuarios;
 
-    public List<Usuario> getUsuarios() {
-        return usuarios;
+    // Getter y setter para grupoId
+    public Long getGrupoId() {
+        return grupo != null ? grupo.getId() : null;
+    }
+
+    public void setGrupoId(Long grupoId) {
+        if (grupo != null) {
+            grupo.setId(grupoId);
+        }
     }
 }

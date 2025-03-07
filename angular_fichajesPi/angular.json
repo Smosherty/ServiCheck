@@ -108,5 +108,8 @@
       }
     }
   },
-  "defaultProject": "angular-fichajesPi"
+  "defaultProject": "angular-fichajesPi",
+  "cli": {
+    "analytics": false
+  }
 }
